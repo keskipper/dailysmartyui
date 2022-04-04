@@ -9,6 +9,7 @@ componentDidMount() {
     this.props.fetchRecentPosts();
 } 
 renderPosts = function() {
+    
     const posts = this.props.recentPosts.map((post, index) => {
         
         if(index < 3) {
