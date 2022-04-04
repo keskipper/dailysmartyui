@@ -2,7 +2,6 @@ import {
     SET_RECENT_POSTS,
     SET_RESULTS_POSTS
 } from '../actions/types';
-import recentPosts from '../components/recent-posts';
 
 const INIT_STATE = {
     resultsPosts: [],
